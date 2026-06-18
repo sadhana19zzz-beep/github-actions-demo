@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+}
+
+/* Main container */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+}
+
+/* Heading styles */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    color: #00e5ff;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    text-align: center;
+    color: #b2ebf2;
+    margin-bottom: 30px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-left: 4px solid #00e5ff;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    background: rgba(0, 0, 0, 0.35);
+}
+
+/* Section headings */
+h2 {
+    color: #00e5ff;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 8px;
+    margin: 5px 0;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #00e5ff;
+    color: #000;
+    transform: scale(1.02);
+}
+
+/* Contact */
+p {
+    font-size: 16px;
+}
+
+/* Email highlight */
+section:last-child p {
+    font-weight: bold;
+    color: #ffcc00;
+}
