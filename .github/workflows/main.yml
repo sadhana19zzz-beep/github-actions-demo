@@ -1,0 +1,17 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run a simple message
+        run: echo "GitHub Actions CI/CD pipeline executed successfully!"
